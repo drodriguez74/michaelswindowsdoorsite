@@ -99,7 +99,7 @@ input, select, textarea {
 
 	body {
 		/*background: #312450;*/
-		background: slategray;
+		background: lightslategray;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1916,7 +1916,8 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			/* color: #312450 !important; */
+			color: slategray !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2357,7 +2358,8 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			/* background: #312450; */
+			background: slategray;
 		}
 
 		select:focus::-ms-value {
@@ -2526,7 +2528,8 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			/* color: #312450; */
+			color: slategray;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -3037,7 +3040,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: rgba(54, 79, 78, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3251,7 +3254,8 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			/* background-color: #261c3e; */
+			background-color: slategray;
 		}
 
 		.wrapper.style1 {
@@ -3387,7 +3391,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: lightslategrey;
+		background-color: slategray;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
