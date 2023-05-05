@@ -20,7 +20,8 @@
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="generic.html" class="active">Generic</a></li>
+						<li><a href="windows.html">Windows</a></li>
+						<li><a href="doors.html">Doors</a></li>
 						<li><a href="elements.html">Elements</a></li>
 					</ul>
 				</nav>
@@ -53,7 +54,7 @@
                                 $body .= "</body></html>";
 
                                 if(mail($to, $subject, $body, $headers)){
-                                    echo "<p>Message sent successfully.</p>";
+                                    echo "<p>Message sent successfully! You will hear back from us in 1-5 days.</p>";
                                 } else {
                                     echo "<p>Sorry, there was an error sending your message. Please try again later.</p>";
                                 }
@@ -86,7 +87,3 @@
 
 	</body>
 </html>
-
-
-
-
