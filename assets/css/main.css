@@ -3929,3 +3929,15 @@ input, select, textarea {
 			}
 
 		}
+
+
+	img.iconimg {
+	    filter: invert(1);
+	    @media screen and (max-width: 980px){
+
+	    }
+	    @media screen and (max-width: 740px){
+
+	    }
+	}
+
