@@ -3933,11 +3933,12 @@ input, select, textarea {
 
 	img.iconimg {
 	    filter: invert(1);
-	    @media screen and (max-width: 980px){
-
+	    margin-right: 1em;
+	    @media screen and (max-width: 1280px){
+			height: 3.5em;
 	    }
-	    @media screen and (max-width: 740px){
-
+	    @media screen and (max-width: 736px){
+			display: none;
 	    }
 	}
 
