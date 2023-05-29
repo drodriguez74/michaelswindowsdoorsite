@@ -3399,7 +3399,7 @@ input, select, textarea {
 		#header > .title {
 			border: 0;
 			color: #ffffff;
-			display: block;
+			display: inline-block;
 			font-size: 1.25em;
 			font-weight: bold;
 		}
@@ -3941,5 +3941,10 @@ input, select, textarea {
 	    @media screen and (max-width: 736px){
 			display: none;
 	    }
+	}
+	
+	img.genericimg {
+		filter: invert(1);
+		height: 2em;
 	}
 
