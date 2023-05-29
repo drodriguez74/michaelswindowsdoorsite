@@ -3393,6 +3393,7 @@ input, select, textarea {
 		display: flex;
 		background-color: slategray;
 		cursor: default;
+		/* padding-left: 2em; */
 		padding: 1.75em 2em;
 	}
 
@@ -3402,6 +3403,7 @@ input, select, textarea {
 			display: inline-block;
 			font-size: 1.25em;
 			font-weight: bold;
+			padding-left: 2em;
 		}
 
 		#header > nav {
@@ -3465,6 +3467,7 @@ input, select, textarea {
 				#header .title {
 					font-size: 1.25em;
 					padding: 1em 0;
+					padding-left: 2em;
 				}
 
 				#header > nav {
@@ -3945,6 +3948,8 @@ input, select, textarea {
 	
 	img.genericimg {
 		filter: invert(1);
+		position: fixed;
 		height: 2em;
+		left: 1em;
 	}
 
