@@ -3953,3 +3953,13 @@ input, select, textarea {
 		left: 1em;
 	}
 
+	img.appearingicon {
+    	display: none;
+	width:50%;
+	margin: 0 auto;
+  	filter: invert(1);
+		@media screen and (max-width: 736px){
+			display: block;
+		}
+ 	}
+
