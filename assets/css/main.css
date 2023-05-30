@@ -3948,7 +3948,7 @@ input, select, textarea {
 	
 	img.genericimg {
 		filter: invert(1);
-		position: fixed;
+		position: absolute;
 		height: 2em;
 		left: 1em;
 	}
