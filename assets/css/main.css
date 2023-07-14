@@ -3572,7 +3572,7 @@ input, select, textarea {
 			-ms-flex-direction: column;
 			flex-direction: column;
 			-moz-justify-content: center;
-			-webkit-justify-content: center;
+			-webkit-justify-content: space-around;
 			-ms-justify-content: center;
 			justify-content: center;
 			-moz-transform: translateY(0);
